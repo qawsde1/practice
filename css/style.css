@@ -111,8 +111,10 @@ main{
 }
 
 main .main__welcome{
+    height: 475px;
+    max-height: 475px;
     text-align: center;
-    padding: 220px 0 335px 0;
+    padding: 0px 0 335px 0;
 }
 main .main__welcome p{
     color: #ffffff;
@@ -130,9 +132,14 @@ main .main__welcome h1{
 }
 main .main__welcome a{
     position: relative;
-    top: 320px;
+    top: 500px;
     padding-bottom: 300px;
 }
+.welcome__top{
+    position: relative;
+    top: 200px;
+}
+
 .welcome__bot{
     padding-bottom: 200px;
 }
