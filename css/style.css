@@ -50,25 +50,43 @@ nav{
     width: 1366px;
 }
 @media screen and (max-width: 1920px){
-    .welcome__bot{
-        margin-bottom: 10%;
+    .main__welcome{
+        margin-bottom: 15%;
     }
+    .swiper-pagination{
+        margin-top: 14%;
+    } 
 }
-@media screen and (max-width: 1428px){
+@media screen and (max-width: 1600px){
     nav{
         margin-left: 31%;
     }
+    .main__welcome{
+        margin-bottom: 0%;
+    }
+    .swiper-pagination{
+        margin-top: -8%;
+    }
 }
-@media screen and (max-width: 1250px){
+@media screen and (max-width: 1400px){
+    nav{
+        margin-left: 31%;
+    }
+    .main__welcome{
+        margin-bottom: 0%;
+    }
+    .swiper-pagination{
+        margin-top: -18%;
+    }
+}
+@media screen and (max-width: 1267px){
     nav{
         margin-left: 23%;
+        display: none;
     }
-}
-@media screen and (max-width: 1091px){
-    nav{
-        margin-left: 16%;
+    .swiper-pagination{
+        display: none;
     }
-
 }
 @media screen and (max-width: 1010px){
     .topnav a{
@@ -624,7 +642,7 @@ main .main__our{
 
 .team__pagination{
     position: absolute;
-    top: 6150px;
+    top: 6250px;
     width: 100%;
     z-index: 1000;
 }
@@ -724,7 +742,7 @@ main .main__our{
 
 .testimonials__pagination{
     position: absolute;
-    top: 7320px;
+    top: 7100px;
     width: 100%;
     z-index: 1000;
 }
